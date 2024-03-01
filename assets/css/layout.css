@@ -1,0 +1,17 @@
+/* index.css  completed */
+
+body {
+    /* overflow-y: hidden; */
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}

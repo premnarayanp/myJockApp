@@ -1,0 +1,36 @@
+<!--
+//after creating layouts file in views ...
+//removed html tag
+//remove body tag
+//removed include tag
+//only write main content 
+// tittle and body and header and footer etc set on run time using layout.ejs
+-->
+
+<link rel="stylesheet" href="../assets/css/home.css">
+<div id="container">
+    <header id="home-header">
+        <div id="heading">
+            <h1>Welcome Jock App</h1>
+        </div>
+
+        <div id="search-bar">
+            <input type="search" id="search-input" placeholder="search......">
+            <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <button id="my-favorites">
+            <a href="/favorite/post">Favorites</a>
+        </button>
+    </header>
+
+    <div id="display">
+        <span> Searched Results..</span>
+        <ul id="suggested-meal-list">
+
+        </ul>
+    </div>
+
+</div>
+<script src="https://kit.fontawesome.com/88bf8d352d.js" crossorigin="anonymous"></script>
+<script src="../assets/js/home.js"></script>
